@@ -1,0 +1,254 @@
+.welcome {
+    
+    
+    color: #28a745;
+    font-size: 24px;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 120%;
+    margin: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.book-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.book-cover-large {
+    width: 150px;
+    height: 225px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+strong {
+    font-weight: bold;
+}
+
+
+
+
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book strong {
+    font-weight: bold;
+}
+
+.ulubione {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.ulubione:hover {
+    background-color: #218838;
+}
+
+.filter-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.filter-button:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    padding-top: 20px;
+    width: 100%;
+
+    text-align: center;
+}
+.container2 {
+    padding-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page-sidebar {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-book-details {
+    margin-bottom: 20px;
+}
+
+.page-reviews {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Dodatkowy styl dla nagłówka "Recenzje" */
+.page-reviews h4 {
+    font-size: 36px;
+    margin: 10px ; /* Zmniejszamy odstęp nad nagłówkiem "Recenzje" */
+    border-bottom: 3px solid #007bff; /* Linia pod nagłówkiem "Recenzje" */
+    padding-bottom: 10px;
+}
+
+
+.review {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 10px;
+}
+
+.form-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.form-container form {
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input[type="text"],
+.form-container select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container2 input[type="text"],
+.form-container2 select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"],
+.form-container2 input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover,
+.form-container2 input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form-label,
+.form-select,
+.form-option {
+    font-family: 'Arial Bold';
+    font-size: 18px;
+    color: #333;
+}
+
+.form-input {
+    width: 90%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-textarea {
+    text-align: center;
+    font-size: 18px;
+}
